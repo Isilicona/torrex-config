@@ -21,7 +21,8 @@
       "skins": [
         "ev_reno",
         "ev_duende"
-      ]
+      ],
+      "icon": "navidad.png"
     }
   ]
 }

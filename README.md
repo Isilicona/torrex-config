@@ -32,7 +32,7 @@ minutos por la caché).
   ],
   "events": [
     {"id": "invierno", "name": "Navidad Helada", "start": "2026-11-01", "end": "2027-01-31",
-     "color": "#38bdf8", "goal": 3, "skins": ["ev_reno", "ev_duende"]}
+     "color": "#38bdf8", "goal": 3, "skins": ["ev_reno", "ev_duende"], "icon": "navidad.png"}
   ]
 }
 ```
@@ -47,6 +47,7 @@ minutos por la caché).
 | `color` | Color de la tarjeta, por ejemplo `#38bdf8`. |
 | `goal` | Niveles a ganar para la 1.ª skin (la 2.ª, el doble). |
 | `skins` | Exactamente 2 ids de skins: de la app o del apartado `skins`. |
+| `icon` | (Opcional) Imagen del evento que se ve en su tarjeta del menú, por ejemplo `navidad.png`. Sube la imagen a este mismo repositorio (PNG, JPG o WEBP, menos de 1 MB, cuadrada; nombre solo con letras, números, `-` y `_`). Para cambiarla, súbela con **otro nombre** y cambia `icon` (la app guarda cada imagen la primera vez que la descarga). |
 
 ### Skins de evento (`skins`)
 
@@ -66,3 +67,9 @@ actualizar la app.
 
 `ev_reno`, `ev_copo` (Navidad), `ev_flor`, `ev_mariposa` (Primavera),
 `ev_surf`, `ev_helado` (Verano), `ev_calabaza`, `ev_fantasma` (Halloween).
+
+## El icono de la app
+
+El icono del iPhone (pantalla de inicio) **no** se puede cambiar desde aquí:
+Apple solo permite iconos que vienen dentro de la app. Cambiarlo necesita
+actualizar la app.
